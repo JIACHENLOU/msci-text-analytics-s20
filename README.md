@@ -12,4 +12,4 @@
 
 **a.**	Condition with stopwords performs better. Removing stopwords has higher chance to change the sentence’s context. For example, by removing “not” from “I am not happy” will completely change the meaning. The classifier will put this negative sentence into positive class. 
 
-**b.**	Condition with unigrams + bigrams performs better. Unigrams only count a single word, it ignores the sentence’s context. Bigrams take the preceding word into consideration, and expands the size of features, may cause more noises (meaningless word unit). Unigrams + bigrams together not only consider the word’s context, but also increase the probability of generating a meaningful feature. 
+**b.**	Condition with unigrams + bigrams performs better. Unigrams only counts a single word, it ignores the sentence’s context. Bigrams takes the preceding word into consideration, and expands the size of features, may cause more noises (meaningless word unit). Unigrams + bigrams together not only consider the word’s context, but also increase the probability of using a meaningful feature. 
