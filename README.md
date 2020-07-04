@@ -33,7 +33,7 @@ ReLu always has the highest accuracy score, and sigmoid has the lowest. ReLU, si
 Adding dropout did not help improve the accuracy score. Perhaps the dataset size is not large enough, shrinking the input size would reduce model’s performance. L2 regularization put a penalty on vectors that have very high weight. It does not increase accuracy because original model was not largely overfitted.
 
 
-**Model 5 Result**
+**Model 5 with ReLu Result**
 
 **Prediction:** 	[1 0 0 1 1 0 0 0 1 1 0 1 1 1 1 0 1 1 0 0]
 
