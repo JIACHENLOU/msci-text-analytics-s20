@@ -4,7 +4,7 @@
 # In[1]:
 
 
-# data_path='/jiachen_lou&shuo_liu_641_final/Supplementary/data'
+# data_path='/Supplementary/data'
 
 
 # In[2]:
